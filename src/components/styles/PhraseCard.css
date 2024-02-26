@@ -1,0 +1,26 @@
+.card__phrase {
+  font-weight: 300;
+  line-height: 1.5;
+  font-size: 1.5rem;
+  color: white;
+  font-style: italic;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+
+.card__phrase::after {
+  content: '"';
+}
+
+.card__phrase::before {
+  content: '"';
+}
+
+.card__author {
+  color: black;
+  text-align: right;
+  text-transform: uppercase;
+  text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff;
+}

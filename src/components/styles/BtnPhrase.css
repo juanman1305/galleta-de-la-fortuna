@@ -1,0 +1,18 @@
+.card__btn {
+  display: block;
+  margin-left: auto;
+  border: none;
+  padding: 0.6em 1.2em;
+  font-size: 1.1rem;
+  border-radius: 0.7em;
+  font-weight: 400;
+  transition: transform 100 ms ease;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.card__btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 1em rgba(111, 111, 110, 0.952);
+}
